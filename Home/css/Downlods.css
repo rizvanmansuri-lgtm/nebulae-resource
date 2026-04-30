@@ -1,0 +1,229 @@
+﻿.brochure-details {
+    background-color: white;
+    background-size: 100% 100%;
+    background-image: url(../../Content/Nebulae/img/middleware/middleware_background.html);
+}
+
+    .brochure-details img {
+        margin-top: 25px !important;
+        margin-bottom: 25px !important;
+        display: inline-block;
+    }
+
+    .brochure-details .container {
+        padding: 0px 0 80px;
+    }
+
+    .brochure-details .diving-title {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 15px !important;
+        margin-bottom: 0px !important;
+    }
+
+@media(max-width:803px) {
+    .brochure-details .container {
+        padding-left: 15px;
+    }
+}
+
+/*.download-list-warpper .download-list {*/
+.download-list {
+    margin: 20px -5px 0 -5px;
+    /*float: left;*/
+    /*width: 100%;*/
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.download-list .download-list-content {
+    background: #e6eaec;
+    border: 2px solid #e6eaec !important;
+    padding: 18px 15px 18px 70px;
+    position: relative;
+    float: left;
+   /* width: 100%;*/
+    font-family: dinproRegular;
+}
+
+@media (min-width: 768px) {
+    .download-list .download-list-content p {
+        margin-bottom: 0;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+        color: #000;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 220px;
+    }
+}
+
+.download-list .download-list-content p {
+    margin-bottom: 0;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #000;
+}
+
+
+
+.download-list .download-list-content a {
+    color: #fff;
+    background: #2bafe2;
+    position: relative;
+    padding: 5px 8px 5px 7px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 6px;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: dinproRegular;
+}
+
+.download-list .download-list-content :after {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    content: url("_/Home/img/pdf-image.html");
+    font-size: 40px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*#datasheets {
+    background-color: #f5fafc;
+}*/
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.downloadButton {
+    background-color: #edab20;
+    color: #fff;
+    border-radius: 20px;
+    font-family: dinproRegular;
+    padding: 4px 7px 4px 7px;
+    margin-top: 6px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-submit {
+    background-color: #2bafe2;
+    color: #fff;
+    border-radius: 3px;
+    font-family: dinproRegular;
+    padding: 4px 12px;
+    font-size: 16px;
+}
+
+.btn-cancel {
+    background-color: #babbbb;
+    color: #fff;
+    border-radius: 3px;
+    font-family: dinproRegular;
+    padding: 4px 12px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.modal {
+    font-family: dinproRegular;
+}
+
+.p-l-20 {
+    padding-left: 20px;
+}
+
+.p-r-20 {
+    padding-right: 20px;
+}
+
+.p-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.m-b-18 {
+    margin-bottom: 18px;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+.input-lg {
+    height: 35px !important;
+    padding: 6px 48px !important;
+    font-size: 14px !important;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.intl-tel-input {
+    margin-bottom: 0px !important;
+}
+
+    .intl-tel-input.allow-dropdown .selected-flag {
+        width: 46px;
+        -moz-border-radius: 4px 0 0 4px !important;
+        -webkit-border-radius: 4px 0 0 4px !important;
+        border-radius: 4px 0 0 4px !important;
+    }
+
+.form-control {
+    height: 35px !important;
+    font-size: 16px !important;
+}
+
+.style2 {
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+}
+
+.downloads-header {
+    font-size: 35px;
+    font-family: dinproCondensedBold;
+    color: #2bafe2;
+    margin: 25px 0px 0px 10px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.downloads-subheader {
+    font-size: 28px;
+    font-family: dinproCondensedBold;
+    color: #2bafe2;
+    margin-left: 10px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.m-t-12 {
+    margin-top: 12px;
+}
+
+.p-b-25 {
+    padding-bottom: 25px;
+}
