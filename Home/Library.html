@@ -141,7 +141,7 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&amp;family=DM+Mono:wght@400;500&amp;display=swap"
     rel="stylesheet" />
 
-<style>
+ <style>
     :root {
       --brand-primary: #0f4c81;
       --brand-accent: #1a7fc1;
@@ -1523,7 +1523,7 @@
 
 <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
 
- <div class="lib-body">
+<div class="lib-body">
     <div class="doc-sidebar" id="docSidebar">
       <div class="sidebar-mobile-search">
         <div class="mob-search-inner">
@@ -1728,10 +1728,10 @@
       { id: "ilc-nema-lora-4g-v1-pdf", name: "ILC NEMA - LoRa & 4G_V1", type: "Brochure", fileType: "pdf", parent: ["product", "solution"], cat: ["lora", 'Smart Street Light Solution'], subcat: "Node", size: "0.2 MB", date: "", file: "./documents/ILC NEMA - LoRa & 4G_V1.pdf" },
       { id: "ccms-brochure-v2-pdf", name: "CCMS Brochure_V2", type: "Brochure", fileType: "pdf", parent: ["product", "solution"], cat: ["lora", 'Smart Street Light Solution'], subcat: "Node", size: "0.3 MB", date: "", file: "./documents/CCMS Brochure_V2.pdf" },
 
-      { id: "AFL0001_Datasheet", name: "AFL0001_Datasheet", type: "Datasheet", fileType: "pdf", parent: ["product"], cat: ["lora"], subcat: "filter", size: "0.3 MB", date: "", file: "./documents/AFL0001_Datasheet.pdf" },
-      { id: "AFL0003_Datasheet 2", name: "AFL0003_Datasheet 2", type: "Datasheet", fileType: "pdf", parent: ["product"], cat: ["lora"], subcat: "filter", size: "0.3 MB", date: "", file: "./documents/AFL0003_Datasheet 2.pdf" },
+      { id: "AFL0001_Datasheet", name: "AFL0001_Datasheet", type: "Datasheet", fileType: "pdf", parent: ["product"], cat: ["lora"], subcat: "Filter", size: "0.3 MB", date: "", file: "./documents/AFL0001_Datasheet.pdf" },
+      { id: "AFL0003_Datasheet 2", name: "AFL0003_Datasheet 2", type: "Datasheet", fileType: "pdf", parent: ["product"], cat: ["lora"], subcat: "Filter", size: "0.3 MB", date: "", file: "./documents/AFL0003_Datasheet 2.pdf" },
 
- 
+
     ];
 
     /* ════════════════════════════════════════════════════════════════════
@@ -2437,15 +2437,4 @@ window.addEventListener('resize', setOffset);
     $('.mean-menu').meanmenu({
         meanScreenWidth: "991"
     });
-
-           const header = document.querySelector('header');
-const body = document.querySelector('.lib-body');
- 
-function setOffset() {
-  const headerHeight = header.offsetHeight;
-  body.style.marginTop = headerHeight + 'px';
-}
- 
-window.addEventListener('load', setOffset);
-window.addEventListener('resize', setOffset);
 </script>
